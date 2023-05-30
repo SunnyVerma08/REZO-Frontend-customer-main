@@ -1,0 +1,142 @@
+/* Rezo Custom Style */
+:root{
+    --bg-gray-blur: rgba(0, 0, 0, 0.5)
+}
+
+.available-services ul li:not(:first-of-type)::after{
+    content: "\0203A";
+}
+
+.text-overlay{
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 65%;
+    opacity: 0.8;
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 18%, #000000 87%);
+    z-index: 1;
+    margin: 1rem -1rem -1rem -1rem;
+}
+
+.tab-active{
+    background: #FFFFFF !important;
+    color: rgba(0, 0, 0, 0.8) !important;
+    font-weight: 600 !important;
+}
+
+.content-active{
+    display: block;
+    opacity: 1 !important;
+    visibility: visible !important;
+    height: auto !important;
+    overflow: auto !important;
+}
+
+.text-shadow-x-0{
+    --x-offset: 0;
+}
+
+.text-shadow-y-2{
+    --y-offset: 2px;
+}
+
+.text-shadow-blur-3{
+    --radius-blur: 3px;
+}
+
+.text-shadow{
+    text-shadow: var(--x-offset) var(--y-offset) var(--radius-blur) var(--bg-gray-blur);
+}
+
+.modal-body{
+    max-height: calc(100vh - 200px);
+}
+
+.line{
+    width: 95%;
+    margin: 0 auto;
+    border-bottom: 0.5px solid rgba(0,0,0,.26);
+}
+
+.loader-overlay{
+    z-index: 60;
+}
+
+.indeterminate::after{
+    content: '';
+    position: absolute;
+    background-color: inherit;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    will-change: left, right;
+    -webkit-animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) 50;
+    animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) 50;
+}
+
+.indeterminate::before{
+    content: '';
+    position: absolute;
+    background-color: inherit;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    will-change: left, right;
+    -webkit-animation: indeterminate 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) 50;
+    animation: indeterminate 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) 50;
+}
+
+.selectContainer{
+    width: 100%;
+    border: none !important;
+    outline: none;
+}
+
+/* .corporate{
+    height: 500px;
+} */
+
+.slick-dots{
+    bottom: 10px !important;
+}
+
+.slick-dots li.slick-active button::before{
+    color: #fff !important;
+}
+
+.clearfix::before, .clearfix::after{
+    content: "";
+    display: table
+}
+
+@keyframes indeterminate {
+    0%{
+        left: -35%;
+        right: 100%;
+    }
+    60%{
+        left: 100%;
+        right: -90%;
+    }
+    100%{
+        left: 100%;
+        right: -90%
+    }
+}
+
+@keyframes indeterminate-short {
+    0%{
+        left: -200%;
+        right: 100%;
+    }
+    60%{
+        left: 107%;
+        right: -8%;
+    }
+    100%{
+        left: 107%;
+        right: -8%;
+    }
+}

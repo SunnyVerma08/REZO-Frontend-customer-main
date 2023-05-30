@@ -1,0 +1,298 @@
+{
+  ".svelte-kit/build/app.js": {
+    "file": "app.js",
+    "src": ".svelte-kit/build/app.js",
+    "isEntry": true,
+    "imports": [
+      "_index-a25d457a.js"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "entries/pages/__layout.svelte.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-a25d457a.js",
+      "_checkAuth-d57e5fd3.js",
+      "_down-arrow-7b0c9d83.js",
+      "_apiCallStore-1da2049a.js",
+      "_Feature-60cd2c39.js",
+      "_rezo-black-87x32-85fce49a.js",
+      "_index-e671fec2.js"
+    ],
+    "css": [
+      "assets/entries/pages/__layout.svelte-ef866d49.css"
+    ],
+    "assets": [
+      "assets/header-image-7d386338.png"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "entries/pages/error.svelte.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-a25d457a.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "entries/pages/index.svelte.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-a25d457a.js",
+      "_Toast.svelte_svelte_type_style_lang-172eb2d6.js",
+      "_apiCallStore-1da2049a.js",
+      "_front-view-male-7f5c6426.js",
+      "_index-e671fec2.js",
+      "_checkAuth-d57e5fd3.js"
+    ]
+  },
+  "src/routes/confirmation.svelte": {
+    "file": "entries/pages/confirmation.svelte.js",
+    "src": "src/routes/confirmation.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-a25d457a.js",
+      "_ServiceLayout-a148d58f.js",
+      "_rezo-black-87x32-85fce49a.js",
+      "_happy-motor-male-bcdabddd.js"
+    ]
+  },
+  "src/routes/loginService.svelte": {
+    "file": "entries/pages/loginService.svelte.js",
+    "src": "src/routes/loginService.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-a25d457a.js",
+      "_rezo-black-87x32-85fce49a.js",
+      "_happy-motor-male-bcdabddd.js",
+      "_ServiceLayout-a148d58f.js"
+    ]
+  },
+  "src/routes/corporate.svelte": {
+    "file": "entries/pages/corporate.svelte.js",
+    "src": "src/routes/corporate.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-a25d457a.js"
+    ],
+    "css": [
+      "assets/entries/pages/corporate.svelte-283e0bbf.css"
+    ],
+    "assets": [
+      "assets/ajax-loader-e7b44c86.gif",
+      "assets/slick-12459f22.svg"
+    ]
+  },
+  "src/routes/bookings.svelte": {
+    "file": "entries/pages/bookings.svelte.js",
+    "src": "src/routes/bookings.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-a25d457a.js",
+      "_Toast.svelte_svelte_type_style_lang-172eb2d6.js",
+      "_checkAuth-d57e5fd3.js",
+      "_index-e671fec2.js"
+    ],
+    "css": [
+      "assets/entries/pages/bookings.svelte-0c366fd5.css"
+    ]
+  },
+  "src/routes/features.svelte": {
+    "file": "entries/pages/features.svelte.js",
+    "src": "src/routes/features.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-a25d457a.js",
+      "_Feature-60cd2c39.js"
+    ]
+  },
+  "src/routes/register.svelte": {
+    "file": "entries/pages/register.svelte.js",
+    "src": "src/routes/register.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-a25d457a.js",
+      "_Toast.svelte_svelte_type_style_lang-172eb2d6.js",
+      "_Toast-d50045c6.js",
+      "_index-e671fec2.js"
+    ]
+  },
+  "src/routes/services/[id].svelte": {
+    "file": "entries/pages/services/_id_.svelte.js",
+    "src": "src/routes/services/[id].svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-a25d457a.js",
+      "_apiCallStore-1da2049a.js",
+      "_Toast.svelte_svelte_type_style_lang-172eb2d6.js",
+      "_Toast-d50045c6.js",
+      "_checkAuth-d57e5fd3.js",
+      "_index-e671fec2.js"
+    ]
+  },
+  "src/routes/settings.svelte": {
+    "file": "entries/pages/settings.svelte.js",
+    "src": "src/routes/settings.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-a25d457a.js",
+      "_Toast.svelte_svelte_type_style_lang-172eb2d6.js",
+      "_checkAuth-d57e5fd3.js",
+      "_index-e671fec2.js"
+    ]
+  },
+  "src/routes/contact.svelte": {
+    "file": "entries/pages/contact.svelte.js",
+    "src": "src/routes/contact.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-a25d457a.js"
+    ]
+  },
+  "src/routes/profile.svelte": {
+    "file": "entries/pages/profile.svelte.js",
+    "src": "src/routes/profile.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-a25d457a.js",
+      "_Toast.svelte_svelte_type_style_lang-172eb2d6.js",
+      "_index-e671fec2.js"
+    ]
+  },
+  "src/routes/support.svelte": {
+    "file": "entries/pages/support.svelte.js",
+    "src": "src/routes/support.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-a25d457a.js"
+    ],
+    "assets": [
+      "assets/search-c633ec35.svg"
+    ]
+  },
+  "src/routes/about.svelte": {
+    "file": "entries/pages/about.svelte.js",
+    "src": "src/routes/about.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-a25d457a.js"
+    ]
+  },
+  "src/routes/login.svelte": {
+    "file": "entries/pages/login.svelte.js",
+    "src": "src/routes/login.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-a25d457a.js",
+      "_Toast.svelte_svelte_type_style_lang-172eb2d6.js",
+      "_Toast-d50045c6.js",
+      "_checkAuth-d57e5fd3.js",
+      "_index-e671fec2.js"
+    ]
+  },
+  "src/routes/book.svelte": {
+    "file": "entries/pages/book.svelte.js",
+    "src": "src/routes/book.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-a25d457a.js",
+      "_down-arrow-7b0c9d83.js",
+      "_front-view-male-7f5c6426.js",
+      "_ServiceLayout-a148d58f.js",
+      "_apiCallStore-1da2049a.js",
+      "_rezo-black-87x32-85fce49a.js",
+      "_index-e671fec2.js",
+      "_checkAuth-d57e5fd3.js"
+    ],
+    "css": [
+      "assets/entries/pages/book.svelte-c15a58c9.css"
+    ]
+  },
+  "src/routes/home.svelte": {
+    "file": "entries/pages/home.svelte.js",
+    "src": "src/routes/home.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-a25d457a.js"
+    ]
+  },
+  "_index-a25d457a.js": {
+    "file": "chunks/index-a25d457a.js"
+  },
+  "_down-arrow-7b0c9d83.js": {
+    "file": "chunks/down-arrow-7b0c9d83.js",
+    "imports": [
+      "_index-a25d457a.js"
+    ]
+  },
+  "_index-e671fec2.js": {
+    "file": "chunks/index-e671fec2.js",
+    "imports": [
+      "_index-a25d457a.js"
+    ]
+  },
+  "_checkAuth-d57e5fd3.js": {
+    "file": "chunks/checkAuth-d57e5fd3.js",
+    "imports": [
+      "_index-e671fec2.js"
+    ]
+  },
+  "_Feature-60cd2c39.js": {
+    "file": "chunks/Feature-60cd2c39.js",
+    "imports": [
+      "_index-a25d457a.js"
+    ],
+    "assets": [
+      "assets/ola-best-driver-6027bcb1.svg",
+      "assets/support-61e1f95b.svg",
+      "assets/send_out_succour-c0f6247a.svg"
+    ]
+  },
+  "_rezo-black-87x32-85fce49a.js": {
+    "file": "chunks/rezo-black-87x32-85fce49a.js"
+  },
+  "_apiCallStore-1da2049a.js": {
+    "file": "chunks/apiCallStore-1da2049a.js",
+    "imports": [
+      "_index-e671fec2.js",
+      "_checkAuth-d57e5fd3.js"
+    ]
+  },
+  "_Toast.svelte_svelte_type_style_lang-172eb2d6.js": {
+    "file": "chunks/Toast.svelte_svelte_type_style_lang-172eb2d6.js",
+    "imports": [
+      "_index-e671fec2.js"
+    ],
+    "css": [
+      "assets/Toast.svelte_svelte_type_style_lang-4204ad10.css"
+    ]
+  },
+  "_front-view-male-7f5c6426.js": {
+    "file": "chunks/front-view-male-7f5c6426.js",
+    "assets": [
+      "assets/front-view-male-a6e1bc95.jpg"
+    ]
+  },
+  "_ServiceLayout-a148d58f.js": {
+    "file": "chunks/ServiceLayout-a148d58f.js",
+    "imports": [
+      "_index-a25d457a.js",
+      "_rezo-black-87x32-85fce49a.js"
+    ]
+  },
+  "_happy-motor-male-bcdabddd.js": {
+    "file": "chunks/happy-motor-male-bcdabddd.js",
+    "assets": [
+      "assets/happy-motor-male-4dccd117.jpg"
+    ]
+  },
+  "_Toast-d50045c6.js": {
+    "file": "chunks/Toast-d50045c6.js",
+    "imports": [
+      "_index-a25d457a.js",
+      "_Toast.svelte_svelte_type_style_lang-172eb2d6.js"
+    ]
+  }
+}
